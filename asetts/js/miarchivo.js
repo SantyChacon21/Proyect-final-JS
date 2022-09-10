@@ -32,13 +32,13 @@ function nuevoAuto(){
     stock.push(autoIngresado)
     console.log(stock)
 }
-let ingresarAutoPreg = prompt (`Desea ingresar un auto?`)
+let ingresarAutoPreg = prompt (`Desea ingresar un auto? Responda con si o no`)
 if(ingresarAutoPreg.toLowerCase() == `no`){
     alert(`Hasta la prox`)
 }else{
     do {
     nuevoAuto()
-    ingresarAutoPreg = prompt(`Desea seguir agregando`)
+    ingresarAutoPreg = prompt(`Desea seguir agregando. Responda con si o no`)
 } while (ingresarAutoPreg.toLowerCase() == `si`);
 }
 if(ingresarAutoPreg.toLowerCase() == `no`){
