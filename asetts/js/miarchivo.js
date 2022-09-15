@@ -32,18 +32,6 @@ function nuevoAuto(){
     stock.push(autoIngresado)
     console.log(stock)
 }
-/* let ingresarAutoPreg = prompt (`Desea ingresar un auto? Responda con si o no`)
-if(ingresarAutoPreg.toLowerCase() == `no`){
-    alert(`Hasta la prox`)
-}else{
-    do {
-    nuevoAuto()
-    ingresarAutoPreg = prompt(`Desea seguir agregando. Responda con si o no`)
-} while (ingresarAutoPreg.toLowerCase() == `si`);
-}
-if(ingresarAutoPreg.toLowerCase() == `no`){
-    alert(`Hasta la prox`)
-} */
 opcionesPagina()
 function opcionesPagina(){
     let nroOpcion = parseInt(prompt (`Ingrese el numero de la opcion que dea usar
